@@ -4,5 +4,5 @@ services:
     image: nginx:1.13-alpine
     container_name: nginx
     ports:
-      - 8088:80
+      - 80:80
     restart: always
